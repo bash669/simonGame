@@ -26,6 +26,23 @@ body {
   border-radius: 20%;
 }
 
+@media (max-width: 600px) {
+  .btn{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: inline;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  #level-title{
+    font-size: 19px;;
+  }
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
